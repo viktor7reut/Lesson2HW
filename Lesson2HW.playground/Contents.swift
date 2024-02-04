@@ -121,6 +121,17 @@ if num % 2 == 0 {
 
 num % 2 == 0 ? print("Число \(num) - четное") : print("Число \(num) - нечетное")
 
+// проверка с массивом чисел
+
+var arrNumbers: [Int] = [13, 2, 20, 21, 76]
+
+for num in arrNumbers {
+    if num % 2 == 0 {
+        print("Число \(num) - четное")
+    } else {
+        print("Число \(num) - нечетное")
+    }
+}
 
 //Task8
 
