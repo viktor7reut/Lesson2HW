@@ -31,6 +31,10 @@ UInt32.max
 UInt64.min
 UInt64.max
 
+print("Int8: Min - \(Int8.min), Max - \(Int8.max)")
+print("Int16: Min - \(Int16.min), Max - \(Int16.max)")
+print("Int32: Min - \(Int32.min), Max - \(Int32.max)")
+print("Int64: Min - \(Int64.min), Max - \(Int64.max)")
 
 var countCharForString = Int()
 
