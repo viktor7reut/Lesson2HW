@@ -191,3 +191,5 @@ for number in rangeForTask10 {
         print("\(number) * \(num) = \(number * num)")
     }
 }
+
+print("\(rangeForTask10)")
