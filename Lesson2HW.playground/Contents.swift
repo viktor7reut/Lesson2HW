@@ -133,6 +133,10 @@ for num in arrNumbers {
     }
 }
 
+for numb in arrNumbers {
+    numb % 2 == 0 ? print("Число \(numb) - четное") : print("Число \(numb) - нечетное")
+}
+
 //Task8
 
 var day = 5
